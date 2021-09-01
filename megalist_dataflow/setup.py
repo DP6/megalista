@@ -22,7 +22,7 @@ setuptools.setup(
     author_email='koopas@dp6.com.br',
     url='https://github.com/DP6/marketing-data-sync',
     install_requires=['googleads==24.1.0', 'google-api-python-client==1.10.0',
-                      'google-cloud-core==1.3.0', 'google-cloud-bigquery==1.26.0',
+                      'google-cloud-core==1.3.0', 'google-cloud-bigquery==2.25.1',
                       'google-cloud-datastore==1.13.1', 'aiohttp==3.7.4'],
     packages=setuptools.find_packages(),
 )
